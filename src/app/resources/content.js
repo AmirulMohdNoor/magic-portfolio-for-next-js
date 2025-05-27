@@ -1,7 +1,7 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
+  firstName: "Amirul",
   lastName: "Yu",
   get name() {
     return `${this.firstName} ${this.lastName}`;
