@@ -9,7 +9,7 @@ const person = {
   role: "Design Engineer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Kuala_Lumpur", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Hey, I'm M1rocle.</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
