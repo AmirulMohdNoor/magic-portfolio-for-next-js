@@ -1,14 +1,14 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Amirul",
-  lastName: "Yu",
+  firstName: "M1rocle",
+  lastName: "",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
+  role: "Security Analyst",
+  avatar: "/images/dp.jpg",
+  email: "aamirulamirul@gmail.com",
   location: "Asia/Kuala_Lumpur", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -30,7 +30,7 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/AmirulMohdNoor",
   },
   {
     name: "LinkedIn",
@@ -40,7 +40,7 @@ const social = [
   {
     name: "X",
     icon: "x",
-    link: "",
+    link: "https://x.com/Amirulxnoor",
   },
   {
     name: "Email",
@@ -62,10 +62,46 @@ const home = {
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
-    <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
-    </>
+    <div style={{ display: "flex", alignItems: "center", gap: "2rem", flexWrap: "wrap" }}>
+  <div style={{ display: "flex", alignItems: "center" }}>
+    <img
+      src="/images/og/offensive.png"
+      alt="Offensive Security Icon"
+      style={{
+        height: "1.25em",
+        verticalAlign: "middle",
+        marginRight: "0.5em",
+      }}
+    />
+    <span style={{ fontWeight: 500 }}>Offensive Security</span>
+  </div>
+
+  <div style={{ display: "flex", alignItems: "center" }}>
+    <img
+      src="/images/og/windows.png"
+      alt="Windows Internals Icon"
+      style={{
+        height: "1.25em",
+        verticalAlign: "middle",
+        marginRight: "0.5em",
+      }}
+    />
+    <span style={{ fontWeight: 500 }}>Windows Internals</span>
+  </div>
+
+  <div style={{ display: "flex", alignItems: "center" }}>
+    <img
+      src="/images/og/malware.png"
+      alt="Malware Icon"
+      style={{
+        height: "1.25em",
+        verticalAlign: "middle",
+        marginRight: "0.5em",
+      }}
+    />
+    <span style={{ fontWeight: 500 }}>Malware</span>
+  </div>
+</div>
   ),
 };
 
@@ -90,9 +126,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        M1rocle is a security analyst specializing in offensive security at a local security company. 
+        Passionate about cybersecurity, he is always eager to learn new techniques and expand his expertise 
+        in this ever-evolving field
       </>
     ),
   },
@@ -101,9 +137,9 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Local Security Company",
+        timeframe: "2024 - Present",
+        role: "Security Analyst | VAPT",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
