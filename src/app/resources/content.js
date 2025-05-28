@@ -62,46 +62,55 @@ const home = {
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
-    <div style={{ display: "flex", alignItems: "center", gap: "2rem", flexWrap: "wrap" }}>
-  <div style={{ display: "flex", alignItems: "center" }}>
-    <img
-      src="/images/og/offensive.png"
-      alt="Offensive Security Icon"
-      style={{
-        height: "1em",
-        verticalAlign: "middle",
-        marginRight: "0.5em",
-      }}
-    />
-    <span style={{ fontWeight: 400 }}>Offensive Security</span>
+    <div>
+  {/* Icons Row */}
+  <div style={{ display: "flex", alignItems: "center", gap: "2rem", flexWrap: "wrap", marginBottom: "1rem" }}>
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <img
+        src="/images/og/offensive.png"
+        alt="Offensive Security Icon"
+        style={{
+          height: "1em",
+          verticalAlign: "middle",
+          marginRight: "0.5em",
+        }}
+      />
+      <span style={{ fontWeight: 400 }}>Offensive Security</span>
+    </div>
+
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <img
+        src="/images/og/windows.png"
+        alt="Windows Internals Icon"
+        style={{
+          height: "1em",
+          verticalAlign: "middle",
+          marginRight: "0.5em",
+        }}
+      />
+      <span style={{ fontWeight: 400 }}>Windows Internals</span>
+    </div>
+
+    <div style={{ display: "flex", alignItems: "center" }}>
+      <img
+        src="/images/og/malware.png"
+        alt="Malware Icon"
+        style={{
+          height: "1em",
+          verticalAlign: "middle",
+          marginRight: "0.5em",
+        }}
+      />
+      <span style={{ fontWeight: 400 }}>Malware</span>
+    </div>
   </div>
 
-  <div style={{ display: "flex", alignItems: "center" }}>
-    <img
-      src="/images/og/windows.png"
-      alt="Windows Internals Icon"
-      style={{
-        height: "1em",
-        verticalAlign: "middle",
-        marginRight: "0.5em",
-      }}
-    />
-    <span style={{ fontWeight: 400 }}>Windows Internals</span>
-  </div>
-
-  <div style={{ display: "flex", alignItems: "center" }}>
-    <img
-      src="/images/og/malware.png"
-      alt="Malware Icon"
-      style={{
-        height: "1em",
-        verticalAlign: "middle",
-        marginRight: "0.5em",
-      }}
-    />
-    <span style={{ fontWeight: 400 }}>Malware</span>
-  </div>
+  {/* Introduction */}
+  <p style={{ fontWeight: 400, fontSize: "0.95rem", lineHeight: "1.6", maxWidth: "600px" }}>
+    M1rocle is a security analyst specializing in offensive security at a local security company. Passionate about cybersecurity, he is always eager to learn new techniques and expand his expertise in this ever-evolving field.
+  </p>
 </div>
+
 
 
   ),
