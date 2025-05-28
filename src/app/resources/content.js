@@ -68,12 +68,12 @@ const home = {
       src="/images/og/offensive.png"
       alt="Offensive Security Icon"
       style={{
-        height: "1.25em",
+        height: "1em",
         verticalAlign: "middle",
         marginRight: "0.5em",
       }}
     />
-    <span style={{ fontWeight: 500 }}>Offensive Security</span>
+    <span style={{ fontWeight: 400 }}>Offensive Security</span>
   </div>
 
   <div style={{ display: "flex", alignItems: "center" }}>
@@ -81,12 +81,12 @@ const home = {
       src="/images/og/windows.png"
       alt="Windows Internals Icon"
       style={{
-        height: "1.25em",
+        height: "1em",
         verticalAlign: "middle",
         marginRight: "0.5em",
       }}
     />
-    <span style={{ fontWeight: 500 }}>Windows Internals</span>
+    <span style={{ fontWeight: 400 }}>Windows Internals</span>
   </div>
 
   <div style={{ display: "flex", alignItems: "center" }}>
@@ -94,14 +94,16 @@ const home = {
       src="/images/og/malware.png"
       alt="Malware Icon"
       style={{
-        height: "1.25em",
+        height: "1em",
         verticalAlign: "middle",
         marginRight: "0.5em",
       }}
     />
-    <span style={{ fontWeight: 500 }}>Malware</span>
+    <span style={{ fontWeight: 400 }}>Malware</span>
   </div>
 </div>
+
+
   ),
 };
 
